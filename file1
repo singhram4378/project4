@@ -1,0 +1,7 @@
+function isPalindrome(word) {
+  word = word.toLowerCase();
+  let reversedWord = word.split("").reverse().join("");
+  return word === reversedWord;
+}
+
+console.log(isPalindrome("Racecar"));
